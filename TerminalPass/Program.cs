@@ -121,7 +121,7 @@ namespace TerminalPass
                             Colors.WriteLine("\tdelete ".Yellow(), "name".Green(), " -> ", "Deletes row with name specified.");
                             Colors.WriteLine("\tadd ".Yellow(), "name".Green(), " password".Green(), " -> ", "Adds a new row.");
                             Colors.WriteLine("\tset ".Yellow(), "key".Green(), " value".Green(), " -> ", "Used to change the config settings.");
-                            Colors.WriteLine("\t\t\t hide ".Yellow(), "true/false".Green(), " value".Green(), ": ", "Show/Hide passwords when displaying the table.");
+                            Colors.WriteLine("\t\t\t hide ".Yellow(), "true/false".Green(),": ", "Show/Hide passwords when displaying the table.");
                             break;
                         case "reload":
                             WriteConfig(config, masterPassword);
