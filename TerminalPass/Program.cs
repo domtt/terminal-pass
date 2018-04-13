@@ -58,8 +58,8 @@ namespace TerminalPass
                 }
                 catch (FileNotFoundException)
                 {
-                    Console.WriteLine("==========NEW LOGIN, CREATE NEW FILE==========");
-                    Console.Write("Password: ");
+                    Console.WriteLine("==========NEW LOGIN, CREATING NEW FILE==========");
+                    Console.Write("Create Password: ");
                     string masterPassword = GetPassword();
                     Console.WriteLine();
 
