@@ -14,6 +14,8 @@ Firstly, you need to [download](https://github.com/foreggs/terminal-pass/release
 
 Once you run the exe, it doesn't have to be installed and it can be stored anywhere you'd like. The first time you run it, it will ask you to create a password and then allow you to use a variety of simple commands to edit your password table.
 
+![screenshot](https://i.imgur.com/pr36kmC.png)
+
 # Basic Commands (more under `help` command)
  - **`help`** - List all the commands
  - **`add name password`** - adds an account row with a label name and a password.
